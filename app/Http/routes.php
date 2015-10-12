@@ -16,6 +16,7 @@
     return view('welcome');
 });*/
 
-Route::get('/', function () {
-    return 'Whaddup world!';
-});
+Route::get('/', 'HomeController@showWelcome');
+
+Route::post('/', 'HomeController@showUser');
+
