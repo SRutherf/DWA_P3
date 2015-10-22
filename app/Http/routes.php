@@ -18,5 +18,7 @@
 
 Route::get('/', 'HomeController@showWelcome');
 
-Route::post('/', 'HomeController@showUser');
+Route::post('/', 'HomeController@showAuthor');
+
+Route::post('/story', 'HomeController@showStory');
 
