@@ -1,3 +1,23 @@
+# DWA_P3
+
+##Live URL
+<http://p3.srutherf.me/>
+
+##Demo
+<http://screencast.com/t/PgEbTmfX/>
+
+##Description
+Project 3 for DWA15 at the Harvard Extension School.  Generates random users and nonsense text to use for developing webpages.
+
+##Details
+Istead of using Lorem Ipsum the nonsense text was "fanficshum ipsum" implemented with databases.  The program selects sentences from the database randomly or based on IDs submitted through POST forms.  The sentences contain certain tags denoted by plus signs (ex: +setting+).  These are then replaced with the random settings or settings chosen by the user.  
+
+If the user leaves anything empty a random ID is selected.  The number of paragraphs accepted range from 3 to 9.  Anything else defaults to a 5.
+
+##Outside Files
+BootStrap: http://getbootstrap.com/
+Laravel Facades:  HTML and FORM (Part of Laravel's Illuminate but not included in a standard installation)
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
